@@ -1,0 +1,34 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-image: linear-gradient(to right, #4facfe, #00f2fe 100%);
+   height: 100vh;
+}
+
+
+.form__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registry__container{
+    width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.registry__title{
+     margin-bottom: 15px;
+     text-align: center;
+}
+
+.registry__input{
+    margin: 20px 0;
+}
