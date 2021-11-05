@@ -25,8 +25,17 @@ function registrar() {
     }
 
     document.getElementById("informacion").innerHTML = name;
+   
+    
+    var formulario = document.getElementById("frmprincipal");
+
+    formulario.reset();
+
+    document.getElementById("nombre").focus();
+  
 
 
+    document.getElementById("titulo").style.display = 'none';
 }
 
 
@@ -36,4 +45,10 @@ function enterCajaTexto(e) {
         registrar();
     }
 
+}
+
+function funcionColor() {
+    var name = document.getElementById("nombre").value;
+    
+    document.getElementById("nombre").style.color = name;
 }

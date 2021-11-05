@@ -20,14 +20,15 @@
     <section class="form__container">
      
         <div class="registry__container">
-              <h1 class="registry__title">Registro</h1>
+              <h1 class="registry__title" id="titulo">Registro</h1>
 
-              <form>
+              <form id="frmprincipal">
 
                 <input 
                     type="text" 
                     name="nombre" 
                     id="nombre"
+                    onkeyup="funcionColor()"
                     placeholder="Captura tu nombre"
                     class="form-control registry__input"
                 />
